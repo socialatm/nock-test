@@ -1,3 +1,8 @@
+/**
+ * enter a known values from the database on lines 13 & 14 before running the test.
+ * Be sure to enclose them in single quotes
+ */
+
 const axios = require('axios');
 
 module.exports = {
