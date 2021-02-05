@@ -3,8 +3,7 @@
  * Be sure it's the same Id you entered in findById.js line 13
  * Be sure to enclose them in single quotes
  */
-
- const expect = require('chai').expect;
+const expect = require('chai').expect;
 const readPost = require('../findById').findbyidPost;
 
 describe('Read Post tests with get', () => {
