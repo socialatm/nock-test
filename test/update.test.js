@@ -5,7 +5,6 @@ describe('Update Post tests', () => {
   it('Update a post from the database', () => {
     return updatePost()
       .then(response => {
-        console.log(response);
         //expect an object back
         expect(typeof response).to.equal('object');
         expect(typeof response._id).to.equal('string');
