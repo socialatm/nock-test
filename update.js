@@ -10,7 +10,7 @@ module.exports = {
       method: 'post',
       url: 'http://localhost:4000/posts/update',
       data: {
-        id: '601893e17bd5b34be043940d',
+        id: '6018ae37d7826f40542197e5',
         title: 'Updated',
         body: 'Why not me again updated'
       }
